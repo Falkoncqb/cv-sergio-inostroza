@@ -107,3 +107,45 @@ footer {
     }
 }
 
+/* ===incorporo LOGOS de las empresas en donde trabajé=== */
+
+.company-logo {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 75px;
+    height: auto;
+    background: rgba(255,255,255,0.85);
+    padding: 6px 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    z-index: 3;
+}
+
+.image-top::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.15);
+    z-index: 1;
+}
+
+.image-top {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.experience-card h5 {
+    color: #004aad;
+    font-weight: 700;
+}
+
+.experience-card p {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+}
+
